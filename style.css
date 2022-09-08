@@ -21,3 +21,17 @@ body {
     font-size: 60px;
     padding: 20px;
 }
+/* styling the table rows */
+.keypad-table tr:first-child .key{
+    background-color: #a5a5a5;
+ }
+ .keypad-table tr:first-child .key:active{
+    background-color: #a5a5a590;
+ }
+ .keypad-table tr td:last-child .key{
+    background-color: #ffa45c;
+ }
+ .keypad-table tr td:last-child .key:active{
+    background-color: #ffa45ccc;
+ }
+
