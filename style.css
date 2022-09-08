@@ -35,3 +35,19 @@ body {
     background-color: #ffa45ccc;
  }
 
+.key{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 90px;
+    margin: 5px;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+}
+.key:active{
+    background-color: #33333390;
+}
