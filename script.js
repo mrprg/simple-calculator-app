@@ -20,3 +20,8 @@ function calculate() {
     let result = displayBox.innerText;
     displayBox.innerText = eval(result);
 };
+
+// for all clear button
+function allClear() {
+    displayBox.innerText = 0;
+}
