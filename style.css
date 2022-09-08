@@ -49,5 +49,6 @@ body {
     user-select: none;
 }
 .key:active{
-    background-color: #33333390;
+    background-color: #b8ff5c;
+    color: #000;
 }
