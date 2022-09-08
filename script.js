@@ -10,6 +10,8 @@ function showDisplay(event) {
     const x = event.target.innerText;
     if (displayBox.innerHTML == 0) {
         return displayBox.innerHTML = x;
+    } else if(displayBox.innerHTML.length >= 11) {
+        return displayBox.innerHTML = displayBox.innerHTML;
     }
     return displayBox.innerHTML += x;
 }
