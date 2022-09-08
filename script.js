@@ -1,3 +1,4 @@
+// add functions to display to show numbers on screen.
 let displayBox = document.querySelector(".display");
 
 let list = document.querySelectorAll(".show-display");
@@ -12,3 +13,10 @@ function showDisplay(event) {
     }
     return displayBox.innerHTML += x;
 }
+
+// add event listener to calculate button 
+document.querySelector(".calculate").addEventListener("click", calculate);
+function calculate() {
+    let result = displayBox.innerText;
+    displayBox.innerText = eval(result);
+};
