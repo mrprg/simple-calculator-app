@@ -22,6 +22,18 @@ function calculate() {
 };
 
 // for all clear button
+document.querySelector(".all-clear").addEventListener("click", allClear);
 function allClear() {
     displayBox.innerText = 0;
+}
+
+// for clear button to clear one character
+document.querySelector(".clear-last").addEventListener("click", clear);
+function clear() {
+    let text = displayBox.innerText;
+    if (text.length === 1) {
+        displayBox.innerText = 0;
+    } else { 
+        displayBox.innerText = text.substring(0, text.length - 1)
+    }
 }
